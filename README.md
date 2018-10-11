@@ -1,4 +1,4 @@
-#withinDescriptive
+# withinDescriptive
 
 SPSS Python Extension function to compute within-group descriptive statistics
 
@@ -6,7 +6,7 @@ This function allows you to calculate a summary statistic for every observation 
 
 This and other SPSS Python Extension functions can be found at http://www.stat-help.com/python.html
 
-##Usage
+## Usage
 **withinDescriptive(Tvar, Stat, Gvar, Ovar)**
 * "Tvar" is the variable for which you want the descriptive statistic
 * "Stat" is the type of descriptive statistic that you want to calculate. Valid values for stat are 
@@ -27,6 +27,6 @@ This and other SPSS Python Extension functions can be found at http://www.stat-h
 * "Gvar" is the grouping variable, defining which observations are in the same group
 * "Ovar" is the output variable, which will taken on the values of the calculated statistics
 
-##Example
+## Example
 **withinDescriptive("test", "MEAN", "classroom", "classmean")**
 * Assuming that your data is children within classrooms, this will assign the value of classmean to be the mean for the particular child's classroom.
