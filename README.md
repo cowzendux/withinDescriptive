@@ -32,4 +32,4 @@ This and other SPSS Python Extension functions can be found at http://www.stat-h
 Stat = "MEAN",    
 Gvar = "classroom",    
 Ovar = "classmean")**
-* Assuming that your data is children within classrooms, this will assign the value of classmean to be the mean for the particular child's classroom.
+* Assuming that your data is children within classrooms, this will assign the value of classmean to be the mean value of "test" for the particular child's classroom.
