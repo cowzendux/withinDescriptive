@@ -28,5 +28,8 @@ This and other SPSS Python Extension functions can be found at http://www.stat-h
 * "Ovar" is the output variable, which will taken on the values of the calculated statistics
 
 ## Example
-**withinDescriptive("test", "MEAN", "classroom", "classmean")**
+**withinDescriptive(Tvar = "test",    
+Stat = "MEAN",    
+Gvar = "classroom",    
+Ovar = "classmean")**
 * Assuming that your data is children within classrooms, this will assign the value of classmean to be the mean for the particular child's classroom.
